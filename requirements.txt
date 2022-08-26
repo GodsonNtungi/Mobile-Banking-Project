@@ -3,9 +3,9 @@ pandas~=1.4.3
 joblib~=1.1.0
 sklearn
 catboost~=1.0.6
-imblearn~=0.8.1
-joblib~=1.1.0
-numpy~=1.21.6
-seaborn~=0.11.2
-matplotlib~=3.2.2
+imblearn
+joblib
+numpy
+seaborn
+matplotlib
 
