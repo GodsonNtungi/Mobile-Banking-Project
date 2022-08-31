@@ -162,6 +162,6 @@ if submit:
     probability = model.predict_proba(preprocessedData[importance.iloc[:165].index])
     col={0:'Mobile Money',1:"Internet Banking"}
     if output[0] == 1:
-        st.markdown(f'##### Your likely to use {col[output[0]]} 🏦, the probability is {round(max(probability[0]),4)*100} %')
+        st.markdown(f'##### Your likely to use {col[output[0]]} 🏦, the probability is {round(max(probability[0])*100,2)} %')
     else:
-        st.markdown(f'##### Your likely to use {col[output[0]]}  📱,the probability is {round(max(probability[0]),4)*100} %')
+        st.markdown(f'##### Your likely to use {col[output[0]]}  📱,the probability is {round(max(probability[0])*100,2)} %')
