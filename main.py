@@ -13,7 +13,7 @@ def func(value):
 
 
 # Heading
-st.header('Mobile banking challenge')
+st.header('Mobile Banking Project')
 st.image('Images/pic.webp', width=600)
 st.markdown('#### A model to predict whether a person will use mobile or internet banking ')
 
